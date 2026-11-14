@@ -75,7 +75,7 @@ REGIONAL_RULES = {
     },
 }
 
-# General guide from the original project. These are educational examples,
+# General recycling guide. These are educational examples,
 # not universal disposal instructions; local programs may differ.
 RECYCLING_GUIDE = {
     "plastic": {
