@@ -1,18 +1,29 @@
-# Publishing this repository to GitHub
+# Publishing and maintaining this repository
 
-The intended repository name is `ai-powered-community-recycling-guide`.
+The public repository is already published at:
 
-1. Create a **public, empty** repository under the GitHub account `krlhsn` with that name. Do not initialize it with a README, license or `.gitignore`; those files are already included here.
-2. From this folder, run:
+https://github.com/krlhsn/ai-powered-community-recycling-guide
 
-       git init -b main
-       git add .
-       git commit -m "Initial release: Eco-Hero Academy 2.0"
-       git remote add origin https://github.com/krlhsn/ai-powered-community-recycling-guide.git
-       git push -u origin main
+## Set up a local working copy
 
-3. Enable GitHub Actions if GitHub asks for permission. The workflow in `.github/workflows/tests.yml` will run tests on Python 3.10 through 3.14.
+    git clone https://github.com/krlhsn/ai-powered-community-recycling-guide.git
+    cd ai-powered-community-recycling-guide
 
-The short GitHub About description can be:
+## Make and verify changes
+
+The project targets Python 3.10+ and has no third-party runtime dependencies.
+
+    python -m unittest discover -s tests -v
+    python main.py
+
+After making changes:
+
+    git add .
+    git commit -m "Describe the change"
+    git push
+
+GitHub Actions automatically runs the test suite on Python 3.10, 3.11, 3.12, 3.13 and 3.14 for pushes to `main` and pull requests targeting `main`.
+
+## Suggested GitHub About description
 
 > A gamified Python recycling education project with material guides, adaptive quizzes, local profiles and achievement badges.
