@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
   <title id="title">Eco-Hero Academy</title>
-  <desc id="desc">Forest-green banner with one clean circular arrow and a leaf emblem beside the project title.</desc>
+  <desc id="desc">Forest-green banner with an open book and a young sprout, representing learning and environmental care.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#092d25"/>
@@ -17,19 +17,22 @@
   </defs>
   <rect width="1200" height="420" rx="28" fill="url(#background)"/>
   <rect width="1200" height="420" rx="28" fill="url(#grid)"/>
+
   <circle cx="940" cy="205" r="174" fill="#f4cf79" opacity=".08"/>
   <circle cx="940" cy="205" r="139" fill="none" stroke="#ffffff" stroke-opacity=".12" stroke-width="2"/>
 
-  <!-- One continuous circular arrow. Its single arrowhead is kept clear of the leaf. -->
-  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 940 88 A 117 117 0 1 1 831 145" stroke="#f3cb6e" stroke-width="15"/>
-    <path d="M 858 116 L 830 145 L 868 151" stroke="#f3cb6e" stroke-width="15"/>
-  </g>
-  <!-- Separate leaf mark with a clear gap from the circular arrow. -->
-  <g transform="translate(940 207)">
-    <path d="M -7 59 C -79 52 -91 -15 -43 -62 C -2 -50 16 -5 -7 59 Z" fill="url(#leaf)"/>
-    <path d="M 10 59 C 78 43 89 -16 45 -62 C 7 -49 -12 -5 10 59 Z" fill="#f3cb6e"/>
-    <path d="M 1 61 L 2 -43 M 0 25 L -35 -20 M 3 15 L 36 -23" fill="none" stroke="#174b38" stroke-width="5" stroke-linecap="round"/>
+  <!-- A sprout rising from an open book: no arrows or crossed shapes. -->
+  <g transform="translate(940 205)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 2 C-2 -28 2 -57 1 -83" fill="none" stroke="#b8edc9" stroke-width="9"/>
+    <path d="M0 -54 C-40 -88 -79 -75 -76 -42 C-47 -25 -17 -31 0 -54Z" fill="url(#leaf)"/>
+    <path d="M2 -78 C34 -111 72 -98 76 -65 C49 -44 19 -51 2 -78Z" fill="#f3cb6e"/>
+    <path d="M-65 -48 C-43 -48 -23 -49 -3 -56 M65 -71 C42 -69 22 -72 4 -80" fill="none" stroke="#236448" stroke-width="4" opacity=".7"/>
+
+    <path d="M-8 4 C-43 -12 -82 -13 -112 -1 L-112 75 C-77 64 -39 66 -8 84Z" fill="#fffaf0" stroke="#d9e9dd" stroke-width="5"/>
+    <path d="M8 4 C43 -12 82 -13 112 -1 L112 75 C77 64 39 66 8 84Z" fill="#e5f4e9" stroke="#b8d9c5" stroke-width="5"/>
+    <path d="M0 5 L0 82" fill="none" stroke="#c5d9cb" stroke-width="6"/>
+    <path d="M-91 20 C-65 13 -40 17 -21 25 M-91 39 C-65 32 -41 36 -21 44 M21 25 C42 17 67 13 91 20 M21 44 C41 36 65 32 91 39" fill="none" stroke="#77ad91" stroke-width="4" opacity=".8"/>
+    <path d="M-116 79 Q-59 65 0 88 Q59 65 116 79" fill="none" stroke="#f3cb6e" stroke-width="8"/>
   </g>
 
   <g font-family="Arial, Helvetica, sans-serif">
