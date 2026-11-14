@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
   <title id="title">Eco-Hero Academy</title>
-  <desc id="desc">A clean forest-green banner with a recycling emblem and the words Eco-Hero Academy, Community Recycling Guide.</desc>
+  <desc id="desc">Forest-green banner with one clean circular arrow and a leaf emblem beside the project title.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#092d25"/>
@@ -8,8 +8,8 @@
       <stop offset="1" stop-color="#0b382e"/>
     </linearGradient>
     <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#a7e7bf"/>
-      <stop offset="1" stop-color="#42b883"/>
+      <stop offset="0" stop-color="#b8edc9"/>
+      <stop offset="1" stop-color="#45b987"/>
     </linearGradient>
     <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
       <path d="M36 0H0V36" fill="none" stroke="#ffffff" stroke-opacity=".045"/>
@@ -19,17 +19,19 @@
   <rect width="1200" height="420" rx="28" fill="url(#grid)"/>
   <circle cx="940" cy="205" r="174" fill="#f4cf79" opacity=".08"/>
   <circle cx="940" cy="205" r="139" fill="none" stroke="#ffffff" stroke-opacity=".12" stroke-width="2"/>
-  <g transform="translate(940 205)" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M-5 -112 A118 118 0 0 1 99 -52" fill="none" stroke="#f3cb6e" stroke-width="13"/>
-    <path d="M73 -83 L102 -49 L61 -45" fill="none" stroke="#f3cb6e" stroke-width="13"/>
-    <path d="M106 5 A118 118 0 0 1 8 112" fill="none" stroke="#72d4a2" stroke-width="13"/>
-    <path d="M43 106 L5 115 L15 75" fill="none" stroke="#72d4a2" stroke-width="13"/>
-    <path d="M-105 2 A118 118 0 0 1 -2 -112" fill="none" stroke="#f3cb6e" stroke-width="13"/>
-    <path d="M-42 -106 L-1 -115 L-12 -75" fill="none" stroke="#f3cb6e" stroke-width="13"/>
-    <path d="M-7 53 C-75 48 -88 -12 -43 -57 C-5 -47 14 -6 -7 53Z" fill="url(#leaf)" stroke="none"/>
-    <path d="M8 57 C74 40 83 -16 43 -57 C7 -44 -10 -5 8 57Z" fill="#f3cb6e" stroke="none"/>
-    <path d="M-1 57 L1 -43 M-3 22 L-35 -17 M4 16 L34 -20" fill="none" stroke="#174b38" stroke-width="5"/>
+
+  <!-- One continuous circular arrow. Its single arrowhead is kept clear of the leaf. -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 940 88 A 117 117 0 1 1 831 145" stroke="#f3cb6e" stroke-width="15"/>
+    <path d="M 858 116 L 830 145 L 868 151" stroke="#f3cb6e" stroke-width="15"/>
   </g>
+  <!-- Separate leaf mark with a clear gap from the circular arrow. -->
+  <g transform="translate(940 207)">
+    <path d="M -7 59 C -79 52 -91 -15 -43 -62 C -2 -50 16 -5 -7 59 Z" fill="url(#leaf)"/>
+    <path d="M 10 59 C 78 43 89 -16 45 -62 C 7 -49 -12 -5 10 59 Z" fill="#f3cb6e"/>
+    <path d="M 1 61 L 2 -43 M 0 25 L -35 -20 M 3 15 L 36 -23" fill="none" stroke="#174b38" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
   <g font-family="Arial, Helvetica, sans-serif">
     <text x="78" y="143" fill="#fffaf0" font-size="59" font-weight="700" letter-spacing="-1.5">Eco-Hero Academy</text>
     <rect x="82" y="171" width="610" height="5" rx="2.5" fill="#f3cb6e"/>
