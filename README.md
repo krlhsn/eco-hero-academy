@@ -87,7 +87,7 @@ The general material tips and facts are carried forward from the original studen
     ├── .github/workflows/tests.yml
     ├── assets/eco-hero-banner.svg
     ├── docs/PROJECT_NOTES.md
-    ├── legacy/original_2025_console.py
+    ├── legacy/original_2025_console.py.gz
     ├── eco_hero/
     │   ├── __init__.py
     │   ├── cli.py
@@ -120,7 +120,7 @@ The project uses only the Python standard library. Contributions should preserve
 - **Context:** Code in Place 2025 final project
 - **Refactor:** modular package, validated profile model, atomic JSON persistence, reusable quiz and guide logic, test coverage, documentation and CI
 
-The original console design included ASCII welcome art, a trophy, a profile system, regional guide variants, a quiz, rule-based advisor replies, adaptive review and achievements. These central ideas remain represented in this repository. The original single-file source is also preserved under `legacy/` for historical reference.
+The original console design included ASCII welcome art, a trophy, a profile system, regional guide variants, a quiz, rule-based advisor replies, adaptive review and achievements. These central ideas remain represented in this repository. The original single-file source is preserved as a compressed historical snapshot at `legacy/original_2025_console.py.gz`; see [legacy/README.md](legacy/README.md) for how to restore it.
 
 ## Author
 
