@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">Eco-Hero Academy — Community Recycling Guide</title>
+<desc id="desc">A forest-green banner with a recycling-inspired circular arrow, leaves and learning symbols.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#082d25"/><stop offset=".6" stop-color="#14533e"/><stop offset="1" stop-color="#0b382d"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe19a"/><stop offset="1" stop-color="#f0a52b"/></linearGradient>
+ <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#fff" stroke-opacity=".05"/></pattern>
+</defs>
+<rect width="1200" height="420" rx="28" fill="url(#bg)"/><rect width="1200" height="420" rx="28" fill="url(#grid)"/>
+<circle cx="930" cy="195" r="180" fill="#f0bd52" opacity=".10"/>
+<g transform="translate(900 205)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M-105 -8A112 112 0 0 1 86 -73" stroke="url(#gold)" stroke-width="15"/><path d="M75 -107L103 -70L58 -64" stroke="url(#gold)" stroke-width="15"/>
+ <path d="M105 8A112 112 0 0 1 -86 73" stroke="#67d9b5" stroke-width="15"/><path d="M-75 107L-103 70L-58 64" stroke="#67d9b5" stroke-width="15"/>
+ <path d="M-2 -57C-52 -63 -74 -28 -57 8C-22 13 -1 -8 -2 -57Z" fill="#67d9b5" stroke="none"/><path d="M5 55C48 65 75 36 60 1C28 -7 4 15 5 55Z" fill="url(#gold)" stroke="none"/>
+ <path d="M-34 5L-2 -25M34 -5L5 25" stroke="#f4f3e5" stroke-width="5"/>
+</g>
+<g transform="translate(78 104)">
+ <text x="0" y="0" fill="#fffaf0" font-family="Arial,Helvetica,sans-serif" font-size="65" font-weight="700" letter-spacing="-2">Eco-Hero Academy</text>
+ <rect x="4" y="28" width="540" height="5" rx="2.5" fill="url(#gold)"/>
+ <text x="4" y="91" fill="#fffaf0" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="600">AI-Powered Community Recycling Guide</text>
+ <text x="4" y="137" fill="#cfe8dd" font-family="Arial,Helvetica,sans-serif" font-size="21">Learn the basics. Take the challenge. Earn your badges.</text>
+ <g transform="translate(4 190)"><rect width="135" height="42" rx="21" fill="#fff" fill-opacity=".11" stroke="#fff" stroke-opacity=".2"/><text x="67" y="27" fill="#fffaf0" font-family="Arial" font-size="14" text-anchor="middle">DISCOVER</text><rect x="150" width="135" height="42" rx="21" fill="#fff" fill-opacity=".11" stroke="#fff" stroke-opacity=".2"/><text x="217" y="27" fill="#fffaf0" font-family="Arial" font-size="14" text-anchor="middle">CHALLENGE</text><rect x="300" width="135" height="42" rx="21" fill="#fff" fill-opacity=".11" stroke="#fff" stroke-opacity=".2"/><text x="367" y="27" fill="#fffaf0" font-family="Arial" font-size="14" text-anchor="middle">LEVEL UP</text></g>
+ <text x="4" y="294" fill="#a9cfc0" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="1">PLASTIC · PAPER · GLASS · METAL · E-WASTE · MORE</text>
+</g>
+<path d="M55 370H1145" stroke="#fff" stroke-opacity=".18"/><text x="600" y="400" fill="#bdd8cd" font-family="Arial,Helvetica,sans-serif" font-size="13" text-anchor="middle" letter-spacing="2">CODE IN PLACE 2025 · STUDENT PROJECT</text>
+</svg>
