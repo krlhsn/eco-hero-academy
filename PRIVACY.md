@@ -1,6 +1,6 @@
 # Privacy and local data notice
 
-Eco-Hero Academy is a local terminal application. It does not connect to a remote AI service, database, analytics system or online leaderboard.
+Eco-Hero Academy is a local terminal application. It does not connect to remote services, databases or analytics systems.
 
 ## Data stored
 

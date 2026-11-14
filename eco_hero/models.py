@@ -57,7 +57,7 @@ class UserProfile:
             highest_score=data.get("highest_score", data.get("score", 0)),
             challenge_rounds_played=data.get("challenge_rounds_played", 0),
             materials_viewed=set(data.get("materials_viewed", [])),
-            advisor_uses=data.get("advisor_uses", data.get("ai_advisor_uses", 0)),
+            advisor_uses=data.get("advisor_uses", 0),
             badges=set(data.get("badges", [])),
             quiz_history=data.get("quiz_history", []),
             current_region=data.get("current_region", "Eco-City Standard"),

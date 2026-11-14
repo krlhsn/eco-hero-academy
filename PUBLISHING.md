@@ -1,13 +1,13 @@
 # Publishing and maintaining this repository
 
-The public repository is already published at:
+The public repository is available at:
 
-https://github.com/krlhsn/ai-powered-community-recycling-guide
+https://github.com/krlhsn/eco-hero-academy
 
 ## Set up a local working copy
 
-    git clone https://github.com/krlhsn/ai-powered-community-recycling-guide.git
-    cd ai-powered-community-recycling-guide
+    git clone https://github.com/krlhsn/eco-hero-academy.git
+    cd eco-hero-academy
 
 ## Make and verify changes
 

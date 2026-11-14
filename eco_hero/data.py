@@ -1,7 +1,7 @@
-"""Curated learning content retained from the original 2025 project.
+"""Curated learning content for Eco-Hero Academy.
 
-The two named regional presets are demonstration scenarios from the original
-console prototype, not verified municipal recycling rules.
+The two named regional presets are demonstration scenarios, not verified
+municipal recycling rules.
 """
 
 ASCII_ART = {

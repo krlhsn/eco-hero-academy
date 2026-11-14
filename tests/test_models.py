@@ -29,9 +29,9 @@ class UserProfileTests(unittest.TestCase):
         profile = UserProfile("A", score=8, highest_score=2)
         self.assertEqual(profile.highest_score, 8)
 
-    def test_legacy_ai_advisor_counter_is_supported(self):
-        restored = UserProfile.from_dict("Legacy", {"ai_advisor_uses": 3})
-        self.assertEqual(restored.advisor_uses, 3)
+    def test_advisor_counter_defaults_to_zero(self):
+        restored = UserProfile.from_dict("New", {})
+        self.assertEqual(restored.advisor_uses, 0)
 
 
 if __name__ == "__main__":

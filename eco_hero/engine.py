@@ -39,7 +39,7 @@ _ADVISOR_RULES = (
 
 
 def advisor_answer(question: str) -> str:
-    """Return a transparent rule-based answer; this is not a generative AI model."""
+    """Return a helpful response to a common recycling question."""
     normalized = " ".join(question.casefold().split())
     if not normalized:
         return "Enter a recycling question, or type 'back' to return to the menu."

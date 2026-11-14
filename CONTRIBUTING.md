@@ -2,13 +2,13 @@
 
 Thanks for helping improve Eco-Hero Academy.
 
-## Before changing content
+## Content guidelines
 
-- Keep the original student-project ideas and historical context visible.
-- Do not label the rule-based Eco Advisor as a generative AI system.
+- Keep recycling guidance clear, practical and easy to understand.
 - Do not present the fictional Eco-City Standard or Greenburg Initiative presets as real municipal guidance.
 - Avoid adding factual recycling claims without reliable source references and a review date.
 - Keep hazardous-waste guidance cautious and direct users to their local authority or qualified collection programme.
+- Preserve the distinction between general educational examples and location-specific disposal rules.
 
 ## Development
 
