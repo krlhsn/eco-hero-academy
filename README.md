@@ -20,7 +20,7 @@
 
 **Eco-Hero Academy** is a Python terminal application that makes learning about recycling more engaging. Explore material guides, ask the Eco Advisor, complete short challenges, review missed questions, build a profile and unlock achievement badges.
 
-[Read the project story](PROJECT_STORY.md) — the idea behind the app, how its learning features fit together, and what building it taught me.
+[Read the project story](PROJECT_STORY.md) - the idea behind the app, how its learning features fit together, and what building it taught me.
 
 The project is designed to run locally, with no third-party Python dependencies.
 
