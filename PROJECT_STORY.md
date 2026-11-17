@@ -41,5 +41,6 @@ For now, Eco-Hero Academy is a local Python project that combines material guide
 ---
 
 **Project:** [Eco-Hero Academy on GitHub](https://github.com/krlhsn/eco-hero-academy)
-**Course context:** Stanford Code in Place, Fall 2025
+**Course context:** Stanford Code in Place Probability for AI, Fall 2026  
 **Author:** Kamrul Hassan
+
